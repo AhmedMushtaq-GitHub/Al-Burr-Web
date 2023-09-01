@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    background-image: url(/img/pexels-photo-67468.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    text-transform: uppercase;
+    color: rgb(255, 166, 0);
+    text-shadow: 3px 2px 5px black;
+   
+    
+}
+header li{
+    text-transform: uppercase;
+    color: rgb(255, 166, 0);
+    text-shadow: 3px 2px 5px rgb(0, 0, 0);
+    
+}
+.des{
+padding-top: 50px;
+    justify-content: center;
+align-items: center;
+}
+.des img{
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.des p{
+    margin-top: 10px;
+}
+.secondimg{
+    background-image: url(/img/pexels-photo-67468.jpeg);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-transform: uppercase;
+    color: rgb(255, 166, 0);
+    text-shadow: 3px 2px 5px black;
+    font-size: 40px;
+    
+}
+.box-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+.box-div .box{
+    background-image: url(/Logo/Red\ Illustrated\ Mascot\ Chef\ Free\ Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.box-div .box h1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 110%;
+}
+.bio{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+.bio .left{
+    height: auto;
+   width: 50%;
+   margin-left: 200px;
+
+}
+.bio .right{
+    height: auto;
+
+width: 50%;
+margin-right: 200px;
+}
